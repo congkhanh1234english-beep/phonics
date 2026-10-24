@@ -1,0 +1,41 @@
+PHONICS EXPLORER V4 - LUYỆN WORD FAMILY (TIẾNG VIỆT)
+================================================
+
+ĐÂY LÀ ỨNG DỤNG WEB NGOẠI TUYẾN THẬT (KHÔNG PHẢI CHỈ ẢNH DEMO).
+
+Cách chạy:
+1. Giải nén toàn bộ tệp ZIP.
+2. Vào thư mục Phonics_Explorer_V4.
+3. Mở index.html bằng Chrome hoặc Microsoft Edge.
+4. Giữ nguyên các tệp app.css, app.js, data.json và thư mục assets cạnh index.html.
+
+Các mục:
+- Thư viện quy tắc: xem 207 ảnh minh họa đã có, nhấn ảnh để phóng to.
+- Word Families: tra nhóm vần, học từ và xem IPA tham khảo; có hai chế độ cơ bản/tất cả.
+- Kéo thẻ: nhấn hoặc kéo thẻ đầu từ vào khuôn vần để ghép, nhấn Kiểm tra hoặc Enter.
+- Ghép âm: điền phần vần còn thiếu.
+- Nghe & chọn: nghe cách đọc và chọn chữ viết.
+- Ôn câu sai: xem những từ trả lời sai, đánh dấu đã thuộc.
+- Tiến độ: xem XP, chuỗi đúng và xuất CSV.
+- A+ / A−: phóng to, thu nhỏ chữ.
+- Kết quả học lưu trong trình duyệt bằng localStorage (không đồng bộ trên máy khác).
+
+GHI CHÚ QUAN TRỌNG VỀ IPA ANH–ANH (BrE)
+- /r/ được dùng theo quy ước phiên âm âm vị phổ biến trong từ điển tiếng Anh;
+  về mặt âm học âm này thường phát ra gần [ɹ].
+- Phụ âm r đầu âm tiết được đọc: rain /reɪn/, train /treɪn/, brain /breɪn/.
+- Giọng Anh–Anh chuẩn thông dụng là non-rhotic:
+  car /kɑː/, park /pɑːk/, care /keə/, word /wɜːd/, door /dɔː/.
+- Có khác biệt tùy giọng nói, ngữ cảnh nối âm, ngữ nghĩa và từ loại.
+- Ảnh poster cũ chưa được sửa chữ và phiên âm nằm sẵn bên trong ảnh.
+- Các IPA trong bảng được tiếp nhận và chuẩn hóa một phần từ dữ liệu phiên âm tự động;
+  chưa kiểm chứng thủ công từng từ. Không dùng làm đáp án thi chính thức nếu chưa đối chiếu từ điển.
+
+ÂM THANH
+- Dùng giọng đọc speechSynthesis có trên thiết bị, ưu tiên en-GB nếu trình duyệt cung cấp.
+- Nếu máy không cài giọng en-GB, trình duyệt có thể phát giọng khác.
+
+SỐ LIỆU: số nhóm và số từ hiển thị trong phần Tiến độ của ứng dụng;
+không khẳng định đã bao phủ mọi từ có thể có của một Word Family.
+
+Tệp dữ liệu: data.json, word_families.csv (tải/xử lý riêng tùy nhu cầu).
